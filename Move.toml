@@ -1,0 +1,17 @@
+[package]
+name = "chainBallot"
+version = "1.0.0"
+authors = []
+
+[addresses]
+voting = "0x815cea0cffe1658f1006bdc08b78a34eec6075c899b2b8aea5a397a8b57001ba"
+
+[dev-addresses]
+voting = "0x815cea0cffe1658f1006bdc08b78a34eec6075c899b2b8aea5a397a8b57001ba"
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]
