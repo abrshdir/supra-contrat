@@ -40,7 +40,7 @@ The contract is written in **Move** and includes the following key components:
 ```json
 {
   "userAccount": {
-    "address": "public address", 
+    "address": "public address",
     "privateKeyHex": "your private key"
   },
   "startTime": "1682572800",
@@ -52,18 +52,19 @@ The contract is written in **Move** and includes the following key components:
 
 **POST** `http://localhost:3000/cast-vote`  
 
-### Prameters
-For voting from anywhere using your wallet
-Applied on the frontend only, which means the endpoint isn't necessary.
-```
+### Parameters  
+For voting from anywhere using your wallet  
+Applied on the frontend only, which means the endpoint isn't necessary.  
+```json
 [
   "voterAddress",
   "party"
 ]
 ```
-#### Parameters 
-For voting stations with no need of paying to cast a vote from the voter.
-The station will pay using the private key 
+
+#### Parameters  
+For voting stations with no need of paying to cast a vote from the voter.  
+The station will pay using the private key  
 ```json
 {
   "userAccount": {
@@ -102,6 +103,13 @@ https://chainballotbackend.onrender.com/has-voted?address=some_public_address
 
 ---
 
+## References  
+
+📖 Move Language Documentation: [Move Language](https://move-language.github.io/move/)  
+🧠 DeepSeek LLM: [DeepSeek AI](https://www.deepseek.com/)  
+
+---
+
 ## Usage  
 
 1️⃣ **Deploy the smart contract**  
@@ -116,3 +124,4 @@ https://chainballotbackend.onrender.com/has-voted?address=some_public_address
 This project is licensed under the **MIT License**.  
 
 🚀 Happy Voting!
+
